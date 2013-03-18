@@ -2,19 +2,15 @@
 
 ##### By Alex Wilson
 
-This is an ideas list for how to make an auto poker on Facebook
 
-Use CasperJS and that kind of thing...
+#### Installation / Setup
+1. Install PhantomJS and CasperJS
+2. Setup a cronjob that runs the following command
 
-if ( document.getElementById("notificationsCountValue").innerHTML != "0" )
- then do stuff....
+casperjs <path-to-/fbCasperPoke.js> <Facebook-ID-of-person-to-poke> <Facebook-login-email> <Facebook-login-password>
 
- something like this
- document.getElementsByClassName("uiIconText")[1].attributes[2].value
-
- and then click it!
-
- document.getElementsByClassName("uiIconText")[7].click()
 
 #### Requirements
-PhantomJs  
+PhantomJS  
+CasperJS  
+Crontab
